@@ -1,0 +1,320 @@
+/* Estrutrura site */
+
+/* 
+    Body
+    |_ main-section (Capa site)
+    |    |_  header-page (Cabeçalho pagina)
+    |    |    |_ container-header
+    |    |        |_ navBox-header
+    |    |            |_ toggle-btn (Menu hamburguer icon)
+    |    |            |    |_spanBar
+    |    |            |_ sidebar (only small and medium screens)
+    |    |            |    |_ ul
+    |    |            |        |_li
+    |    |            |            |_ a
+    |    |            |_ navBrand-Space (col-lg)
+    |    |            |    |_ a
+    |    |            |        |_ img (header-logo)  
+    |    |            |_ navBar-space  (col-lg)
+    |    |                |_ navbar-header
+    |    |                    |_ ul
+    |    |                        |_ li
+    |    |                            |_ a
+    |    |__ slogan (main)
+    |        |_ section-slogan
+    |            |_ container-slogan
+    |                |_ row-slogan
+    |                    |_ div-slogan            
+    |
+    |_ section-sobre
+    |    |_container-sobre
+    |       |_row-sobre
+    |           |_ div-sobre
+    |
+    |_ section-servicos
+    |   |_ container-sobre
+    |       |_ row-sobre
+    |           |_ servicos-area-1 
+    |           |_ servicos-area-2
+    |           |_ servicos-area-3
+    |
+    |_ section-diferenciais
+    |   |_ container-sobre
+    |       |_ row-sobre
+    |           |_ diferenciais-area-1 
+    |           |_ diferenciais-area-2
+    |           |_ diferenciais-area-3
+    |
+
+/* ====================== section-servicos ====================== */
+
+/* -------------- container-servicos
+/* -------------- row-servicos
+/* -------------- servicos-area-1
+/* -------------- servicos-area-2
+/* -------------- servicos-area-3
+*/
+
+
+/* ====================== section-servicos ====================== */
+
+    /* -------------- row-servicos */
+    .row-servicos article {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .row-servicos article p{
+        font-weight: 300;
+    }
+    .area p{
+        font-size: .85em;
+        color: white;
+    }
+    /* -------------- servicos-area-1 */
+    .servicos-area-1 h3{
+        text-transform: uppercase;
+    }
+    /* -------------- servicos-area-2 */
+    /* -------------- servicos-area-3 */
+
+@media screen and (max-width: 991.98px) {
+/* ====================== section-servicos ====================== */
+
+    /* -------------- container-servicos */
+    /* -------------- row-servicos */
+    .row-servicos {
+        margin-top: 1em;
+    }
+    .row-servicos article{
+        padding-top: 3em;
+        padding-bottom: 1em;
+    }
+    .row-servicos article p{
+        padding-left: 2em;
+        padding-right: 2em;
+        margin-top: 1em;
+    }
+
+    /* -------------- servicos-area-1 */
+    .servicos-area-1{
+        background: url(../img/mobile/s3\ ft1.png)no-repeat round;
+        background-size: cover;
+    }
+    /* -------------- servicos-area-2 */
+    .servicos-area-2{
+        background: url(../img/mobile/s3\ ft2.png)no-repeat round;
+        background-size: cover;
+    }
+    /* -------------- servicos-area-3 */
+    .servicos-area-3{
+        background: url(../img/mobile/s3\ ft3.png)no-repeat round;
+        background-size: cover;
+    }
+}
+
+/* Dispositivos large (desktops com 992px ou mais) */
+
+@media (min-width: 992px) {
+/* ====================== section-servicos ====================== */
+
+    /* -------------- container-servicos */
+    .container-servicos {
+        padding: 0;
+        padding-top: 2em;
+        margin-top: 7em;
+    }
+    /* -------------- row-servicos */
+    .row-servicos {
+        padding: 0;
+        margin-top: 1.98em;
+    }
+    /* -------------- servicos-area-1 */
+    .servicos-area-1{
+        background: url(../img/web/s3\ ft1.png)no-repeat round;
+        background-size: cover;
+        width: 23em;
+        height: 30em;
+    }
+    /* -------------- servicos-area-2 */
+    .servicos-area-2{
+        background: url(../img/web/s3\ ft2.png)no-repeat round;
+        background-size: cover;
+        width: 23em;
+        height: 30em;
+    }
+    /* -------------- servicos-area-3 */
+    .servicos-area-3{
+        background: url(../img/web/s3\ ft3.png)no-repeat round;
+        background-size: cover;
+        width: 23em;
+        height: 30em;
+    }
+}
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+
+@media (max-width: 575.98px) {
+/* ====================== section-servicos ====================== */
+
+    /* -------------- container-servicos */
+    .container-servicos{
+        padding: 1.5em;
+    }
+    .container-servicos h2{
+        font-size: 1.65em;
+    }
+    /* -------------- row-servicos */
+    .row-servicos article h3{
+        font-size: 1em;
+    }
+
+    .row-servicos article p{
+        font-size: .6em;
+    }
+
+    .area{
+        width: 18em;
+        height: 15em;
+    }
+    /* -------------- servicos-area-1 */
+    /* -------------- servicos-area-2 */
+    /* -------------- servicos-area-3 */
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* ====================== section-servicos ====================== */
+
+    /* -------------- container-servicos */
+    .container-servicos{
+        padding: 1.5em;
+    }
+    .container-servicos h2{
+        font-size: 1.65em;
+    }
+    /* -------------- row-servicos */
+
+    .row-servicos article h3{
+        font-size: 1.1em;
+        margin-bottom: 1.5em;
+    }
+
+    .row-servicos article p{
+        font-size: .85em;
+        padding-right: 4em;
+        padding-left: 3em;
+    }
+
+    .row-servicos article{
+        margin-top: 3em;
+    }
+
+    .area{
+        width: 32em;
+        height: 25em;
+    }
+    /* -------------- servicos-area-1 */
+    /* -------------- servicos-area-2 */
+    /* -------------- servicos-area-3 */
+}
+
+/* Dispositivos médios (tablets com 768px ou mais) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* ====================== section-servicos ====================== */
+
+    /* -------------- container-servicos */
+    .container-servicos{
+        padding: 1.5em;
+    }
+    /* -------------- row-servicos */
+
+    .row-servicos article h3{
+        font-size: 1.5em;
+        margin-bottom: 2em;
+    }
+
+    .row-servicos article p{
+        font-size: 1em;
+        padding-right: 4em;
+        padding-left: 3em;
+    }
+
+    .row-servicos article{
+        margin-top: 3.5em;
+    }
+
+    .area{
+        width: 41em;
+        height: 33em;
+    }
+    
+}
+
+/* Dispositivos large (desktops com 992px ou mais) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* ====================== section-servicos ====================== */
+    /* -------------- container-servicos */
+    /* -------------- row-servicos */
+    .row-servicos{
+        margin-top: 4.5em;
+    }
+
+    .row-servicos article h3{
+        font-size: 1.1em;
+        margin-bottom: 2em;
+    }
+
+    .row-servicos article p{
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    .row-servicos article{
+        margin-top: 2.5em;
+    }
+
+    .area{
+        height: 25em;
+    }
+    /* -------------- servicos-area-1 */
+    /* -------------- servicos-area-2 */
+    /* -------------- servicos-area-3 */
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+
+@media (min-width: 1200px) {
+/* ====================== section-servicos ====================== */
+    /* -------------- container-servicos */
+    /* -------------- row-servicos */
+    .row-servicos{
+        margin-top: 4.5em;
+    }
+
+    .row-servicos article h3{
+        font-size: 1.5em;
+        margin-bottom: 2.5em;
+    }
+
+    .row-servicos article p{
+        font-size: 1.2em;
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+
+    .row-servicos article{
+        margin-top: 3.5em;
+    }
+
+    .area{
+        height: 30em;
+    }
+    /* -------------- servicos-area-1 */
+    /* -------------- servicos-area-2 */
+    /* -------------- servicos-area-3 */
+}

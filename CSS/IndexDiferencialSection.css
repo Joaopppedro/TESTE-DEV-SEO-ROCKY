@@ -1,0 +1,349 @@
+/* Estrutrura site */
+
+/* 
+    Body
+    |_ main-section (Capa site)
+    |    |_  header-page (Cabeçalho pagina)
+    |    |    |_ container-header
+    |    |        |_ navBox-header
+    |    |            |_ toggle-btn (Menu hamburguer icon)
+    |    |            |    |_spanBar
+    |    |            |_ sidebar (only small and medium screens)
+    |    |            |    |_ ul
+    |    |            |        |_li
+    |    |            |            |_ a
+    |    |            |_ navBrand-Space (col-lg)
+    |    |            |    |_ a
+    |    |            |        |_ img (header-logo)  
+    |    |            |_ navBar-space  (col-lg)
+    |    |                |_ navbar-header
+    |    |                    |_ ul
+    |    |                        |_ li
+    |    |                            |_ a
+    |    |__ slogan (main)
+    |        |_ section-slogan
+    |            |_ container-slogan
+    |                |_ row-slogan
+    |                    |_ div-slogan            
+    |
+    |_ section-sobre
+    |    |_container-sobre
+    |       |_row-sobre
+    |           |_ div-sobre
+    |
+    |_ section-diferenciais
+    |   |_ container-sobre
+    |       |_ row-sobre
+    |           |_ diferenciais-area-1 
+    |           |_ diferenciais-area-2
+    |           |_ diferenciais-area-3
+    |
+    |_ section-diferenciais
+    |   |_ container-sobre
+    |       |_ row-sobre
+    |           |_ diferenciais-area-1 
+    |           |_ diferenciais-area-2
+    |           |_ diferenciais-area-3
+    |
+
+/* ====================== section-diferenciais ====================== */
+
+/* -------------- container-diferenciais
+/* -------------- row-diferenciais
+/* -------------- diferenciais-area-1
+/* -------------- diferenciais-area-2
+/* -------------- diferenciais-area-3 */
+
+
+/* ====================== section-diferenciais ====================== */
+  
+    /* -------------- row-diferenciais */
+    .row-diferenciais article {
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: .05em;
+        text-align: center;
+        color: white;
+    }
+
+    .row-diferenciais article p{
+        font-weight: 600;
+    }
+    .row-diferenciais .area p{
+        font-size: .85em;
+    }
+
+    /* -------------- diferenciais-area-1 */
+    .diferenciais-area-1 h3{
+        text-transform: uppercase;
+    }
+    /* -------------- diferenciais-area-2 */
+    /* -------------- diferenciais-area-3 */
+
+@media screen and (max-width: 991.98px) {
+/* ====================== section-diferenciais ====================== */
+    .section-diferenciais{
+        padding-top: 0em!important;
+    }
+    /* -------------- container-diferenciais */
+    /* -------------- row-diferenciais */
+    .row-diferenciais {
+        margin-top: 1em;
+    }
+    .row-diferenciais article{
+        padding-top: 3em;
+        padding-bottom: 1em;
+    }
+    .row-diferenciais article p{
+        padding-left: 2em;
+        padding-right: 2em;
+        margin-top: 1em;
+    }
+
+    /* -------------- diferenciais-area-1 */
+    .diferenciais-area-1{
+        background: url(../img/mobile/s4\ ft1.png)no-repeat round;
+        background-size: cover;
+    }
+    /* -------------- diferenciais-area-2 */
+    .diferenciais-area-2{
+        background: url(../img/mobile/s4\ ft2.png)no-repeat round;
+        background-size: cover;
+    }
+    /* -------------- diferenciais-area-3 */
+    .diferenciais-area-3{
+        background: url(../img/mobile/s4\ ft3.png)no-repeat round;
+        background-size: cover;
+    }
+}
+
+/* Dispositivos large (desktops com 992px ou mais) */
+
+@media (min-width: 992px) {
+/* ====================== section-diferenciais ====================== */
+
+    /* -------------- container-diferenciais */
+    .container-diferenciais {
+        padding: 0;
+        margin-top: 5em;
+    }
+    /* -------------- row-diferenciais */
+    .row-diferenciais {
+        padding: 0;
+        margin-top: 1.98em;
+    }
+    /* -------------- diferenciais-area-1 */
+    .diferenciais-area-1{
+        background: url(../img/web/s4\ ft1.png)no-repeat round;
+        background-size: cover;
+    }
+    /* -------------- diferenciais-area-2 */
+    .diferenciais-area-2{
+        background: url(../img/web/s4\ ft2.png)no-repeat round;
+        background-size: cover;
+    }
+    /* -------------- diferenciais-area-3 */
+    .diferenciais-area-3{
+        background: url(../img/web/s4\ ft3.png)no-repeat round;
+        background-size: cover;
+    }
+}
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+
+@media (max-width: 575.98px) {
+/* ====================== section-diferenciais ====================== */
+
+    /* -------------- container-diferenciais */
+    .container-diferenciais{
+        padding: 1.5em;
+    }
+
+    .container-diferenciais h2{
+        font-size: 1.65em;
+    }
+    /* -------------- row-diferenciais */
+
+    .row-diferenciais article h3{
+        font-size: .5em;
+        margin-bottom: 2em;
+    }
+
+    .row-diferenciais article i{
+        font-size: 4em;
+        padding-right: .2em;
+    }
+
+    .row-diferenciais article p{
+        width: 95%;
+        padding-left: 1.5em;
+        padding-right: 1em;
+        padding-top: 0.5em;
+        font-size: .75em!important;
+    }
+
+    .row-diferenciais article{
+        margin-top: 0.5em;
+    }
+
+    .row-diferenciais .area{
+        width: 19em;
+        height: 19em;
+    }
+    /* -------------- diferenciais-area-1 */
+    /* -------------- diferenciais-area-2 */
+    /* -------------- diferenciais-area-3 */
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* ====================== section-diferenciais ====================== */
+
+    /* -------------- container-diferenciais */
+    .container-diferenciais{
+        padding: 1.5em;
+    }
+
+    .container-diferenciais h2{
+        font-size: 1.65em;
+    }
+    /* -------------- row-diferenciais */
+
+    .row-diferenciais article h3{
+        font-size: 1.5em;
+        margin-bottom: 2em;
+    }
+
+    .row-diferenciais article i{
+        font-size: 6em;
+        padding-right: .2em;
+    }
+
+    .row-diferenciais article p{
+        font-size: 1em!important;
+        width: 95%;
+        padding: 4em;
+        padding-top: 2.5em;
+    }
+
+    .row-diferenciais article{
+        margin-top: 3.5em;
+    }
+
+    .row-diferenciais .area{
+        width: 32em;
+        height: 30.5em;
+    }
+    /* -------------- diferenciais-area-1 */
+    /* -------------- diferenciais-area-2 */
+    /* -------------- diferenciais-area-3 */
+}
+
+/* Dispositivos médios (tablets com 768px ou mais) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* ====================== section-diferenciais ====================== */
+
+    /* -------------- container-diferenciais */
+    .container-diferenciais{
+        padding: 1.5em;
+    }
+    /* -------------- row-diferenciais */
+
+    .row-diferenciais article h3{
+        font-size: 1.5em;
+        margin-bottom: 2em;
+    }
+
+    .row-diferenciais article i{
+        font-size: 6em;
+    }
+
+    .row-diferenciais article p{
+        font-size: 1.4em!important;
+        width: 91%;
+        padding-bottom: 4em;
+        margin-left: 1.39em;
+        padding-top: 2.5em;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    .row-diferenciais article{
+        margin-top: 3.5em;
+    }
+
+    .row-diferenciais .area{
+        width: 41em;
+        height: 40em;
+    }
+    
+}
+
+/* Dispositivos large (desktops com 992px ou mais) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* ====================== section-diferenciais ====================== */
+    /* -------------- container-diferenciais */
+    /* -------------- row-diferenciais */
+    .row-diferenciais{
+        margin-top: 4.5em;
+    }
+
+    .row-diferenciais .area i{
+        font-size: 5em;
+        padding-right: 1em;
+    }
+
+    .row-diferenciais .area p {
+        font-size: .85em;
+        padding: .5em;
+        width: 73%;
+    }
+
+    .row-diferenciais article{
+        margin-top: 3.5em;
+    }
+
+    .row-diferenciais .area{
+        height: 25em;
+    }
+    /* -------------- diferenciais-area-1 */
+    /* -------------- diferenciais-area-2 */
+    /* -------------- diferenciais-area-3 */
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+
+@media (min-width: 1200px) {
+/* ====================== section-diferenciais ====================== */
+    /* -------------- container-diferenciais */
+    /* -------------- row-diferenciais */
+    .row-diferenciais{
+        margin-top: 4.5em;
+    }
+
+    .row-diferenciais article p{
+        font-size: .9em!important;
+        padding-right: 2em;
+        padding-left: 2em;
+        margin-top: 5em!important;
+    }
+
+    .row-diferenciais article{
+        padding-right: 5em;
+        padding-left: 1em;
+        margin-top: 4.5em;
+    }
+
+    .row-diferenciais .area i{
+        font-size: 6em;
+    }
+
+    .row-diferenciais .area{
+        height: 33em;
+    }
+    /* -------------- diferenciais-area-1 */
+    /* -------------- diferenciais-area-2 */
+    /* -------------- diferenciais-area-3 */
+}

@@ -1,0 +1,174 @@
+/* Estrutrura site */
+
+/* 
+    Body
+    |_ main-section (Capa site)
+    |    |_  header-page (Cabeçalho pagina)
+    |    |    |_ container-header
+    |    |        |_ navBox-header
+    |    |            |_ toggle-btn (Menu hamburguer icon)
+    |    |            |    |_spanBar
+    |    |            |_ sidebar (only small and medium screens)
+    |    |            |    |_ ul
+    |    |            |        |_li
+    |    |            |            |_ a
+    |    |            |_ navBrand-Space (col-lg)
+    |    |            |    |_ a
+    |    |            |        |_ img (header-logo)  
+    |    |            |_ navBar-space  (col-lg)
+    |    |                |_ navbar-header
+    |    |                    |_ ul
+    |    |                        |_ li
+    |    |                            |_ a
+    |    |__ slogan (main)
+    |        |_ section-slogan
+    |            |_ container-slogan
+    |                |_ row-slogan
+    |                    |_ div-slogan            
+    |
+    |_ section-sobre
+    |    |_container-sobre
+    |       |_row-sobre
+    |           |_ div-sobre
+    |
+    |_ section-servicos
+    |   |_ container-sobre
+    |       |_ row-sobre
+    |           |_ servicos-area-1 
+    |           |_ servicos-area-2
+    |           |_ servicos-area-3
+    |
+    |_ section-diferenciais
+    |   |_ container-sobre
+    |       |_ row-sobre
+    |           |_ diferenciais-area-1 
+    |           |_ diferenciais-area-2
+    |           |_ diferenciais-area-3
+    |
+
+/* ====================== section-sobre ====================== */
+/* -------------- container-sobre */
+/* -------------- row-sobre */
+/* -------------- div-sobre */
+
+.div-sobre article {
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color: white;
+    letter-spacing: .05em;
+}
+
+
+@media screen and (max-width: 991.98px) {
+/* ====================== section-sobre ====================== */
+    /* -------------- container-sobre */
+    /* -------------- row-sobre */
+    /* -------------- div-sobre */
+    .div-sobre {
+        margin-top: 2em;
+    }
+    .div-sobre article {
+        padding: 2.3em;
+        margin-top: 2.5em;
+        box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Dispositivos large (desktops com 992px ou mais) */
+
+@media (min-width: 992px) {
+/* ====================== section-sobre ====================== */
+    /* -------------- container-sobre */
+    .container-sobre {
+        padding: 0;
+    }
+    /* -------------- row-sobre */
+    .row-sobre {
+        padding: 0;
+        margin-top: 1.98em;
+    }
+    /* -------------- div-sobre */
+    .div-sobre article {
+        width: 70%;
+        padding: 2.3em;
+        margin-top: 6em;
+    }
+}
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+
+@media (max-width: 575.98px) {
+/* ====================== section-sobre ====================== */
+    /* -------------- container-sobre */
+    /* -------------- row-sobre */
+    /* -------------- div-sobre */
+    .div-sobre{
+        padding: 1.5em;
+    }
+    .div-sobre h2{
+        font-size: 1.65em;
+    }
+    .div-sobre article {
+        font-size: .68em;
+    }
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* ====================== section-sobre ====================== */
+    /* -------------- container-sobre */
+    /* -------------- row-sobre */
+    /* -------------- div-sobre */
+    .div-sobre{
+        padding: 1.5em;
+    }
+    .div-sobre h2{
+        font-size: 2.5em;
+    }
+    .div-sobre article {
+        font-size: .85em;
+    }
+}
+
+/* Dispositivos médios (tablets com 768px ou mais) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* ====================== section-sobre ====================== */
+    /* -------------- container-sobre */
+    /* -------------- row-sobre */
+    /* -------------- div-sobre */
+
+    
+    
+}
+
+/* Dispositivos large (desktops com 992px ou mais) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   /* ====================== section-sobre ====================== */
+    /* -------------- container-sobre */
+    /* -------------- row-sobre */
+    /* -------------- div-sobre */
+    .div-sobre article {
+        font-size: .75em;
+    }
+
+    
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+
+@media (min-width: 1200px) {
+    /* ====================== section-sobre ====================== */
+    /* -------------- container-sobre */
+    /* -------------- row-sobre */
+    /* -------------- div-sobre */
+    .div-sobre article {
+        width: 75%!important;
+        font-size: .85em;
+    }
+
+
+}

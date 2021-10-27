@@ -1,0 +1,173 @@
+#sidebar {
+    /* dimensions */
+    width: 70%;
+    height: auto;
+    /* position */
+    top: 0%;
+    position: absolute;
+    left: -150%;
+    /* structure */
+    padding: 1em;
+    padding-right: 1.5em;
+    /* style */
+    background-color: rgba(255, 255, 255, 0.09);
+    transition: 0.18s;
+    border-radius: 10%;
+    backdrop-filter: blur(15px);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    overflow: hidden;
+    z-index: 2;
+}
+
+#sidebar ul li {
+    list-style: none;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 0.4em;
+    margin-left: 2.5em;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid white;
+}
+
+#sidebar ul li a {
+    color: white;
+}
+
+#sidebar ul li:nth-child(1) {
+    margin-top: 15%;
+}
+
+.toggle-btn {
+    top: 35%;
+    left: 5%;
+    position: absolute;
+    z-index: 3;
+}
+
+.toggle-btn span {
+    width: 1.5em;
+    height: 0.2em;
+    border-radius: 0.2em;
+    background: white;
+    display: block;
+    margin-top: 4px;
+    transition-duration: 0.3s;
+}
+
+/* Classes de mudança JS */
+
+/* esconder caixa */
+
+.ativo {
+    margin-left: 135%;
+}
+
+.desativo {
+    margin-left: -100%;
+}
+
+/* Posição do toggler button */
+
+.toggle-btn-active {
+    transition-duration: 0.3s;
+}
+
+.toggle-btn-desactive {
+    transition-duration: 0.2s;
+}
+
+/* spanBar */
+
+.spanBar-1-active {
+    transform: rotate(-45deg);
+}
+
+.spanBar-1-desactive {
+    transform: rotate(0deg);
+}
+
+.spanBar-2-active {
+    opacity: 0;
+}
+
+.spanBar-2-desactive {
+    opacity: 1;
+}
+
+.spanBar-3-active {
+    transform: rotate(45deg);
+}
+
+.spanBar-3-desactive {
+    transform: rotate(0deg);
+}
+
+@media (max-width: 575.98px) {
+    /* Posição do toggler button */
+    .toggle-btn-active {
+        left: 40%!important;
+    }
+    .toggle-btn-desactive {
+        left: 5%!important;
+    }
+    /* spanBar */
+    .spanBar-1-active {
+        margin-top: 20%!important;
+    }
+    .spanBar-1-desactive {
+        margin-top: 0%!important;
+    }
+    .spanBar-3-active {
+        margin-top: -38.5%!important;
+    }
+    .spanBar-3-desactive {
+        margin-top: 20%!important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Posição do toggler button */
+    .toggle-btn-active {
+        left: 35%!important;
+    }
+    .toggle-btn-desactive {
+        left: 5%!important;
+    }
+    /* spanBar */
+    .spanBar-1-active {
+        margin-top: 20%!important;
+    }
+    .spanBar-1-desactive {
+        margin-top: 0%!important;
+    }
+    .spanBar-3-active {
+        margin-top: -38.5%!important;
+    }
+    .spanBar-3-desactive {
+        margin-top: 20%!important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Posição do toggler button */
+    .toggle-btn-active {
+        left: 26.5%!important;
+    }
+    .toggle-btn-desactive {
+        left: 5%!important;
+    }
+    /* spanBar */
+    .spanBar-1-active {
+        margin-top: 20%!important;
+    }
+    .spanBar-1-desactive {
+        margin-top: 0%!important;
+    }
+    .spanBar-3-active {
+        margin-top: -38.5%!important;
+    }
+    .spanBar-3-desactive {
+        margin-top: 20%!important;
+    }
+}

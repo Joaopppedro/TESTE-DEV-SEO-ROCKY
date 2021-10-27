@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<!-- Meta tags Obrigatórias -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="robots" content="index, follow">
+	<meta property="og:locale" content="pt_BR">
+	<meta property="og:site_name" content="Rocky">
+	<meta name="keywords" content="Rocky, Marketing, Digital, Marketing Digital, Tecnologia, 
+		Redes Sociais, Mídia Social, Social Media, Digital Performance">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- FontAwesome-->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/styleCommons.css">
+	<link rel="stylesheet" type="text/css" href="css/IndexMainSection.css">
+	<link rel="stylesheet" type="text/css" href="css/IndexSobreSection.css">
+	<link rel="stylesheet" type="text/css" href="css/IndexServicoSection.css">
+	<link rel="stylesheet" type="text/css" href="css/IndexDiferencialSection.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/sideBarMenu.css">
+	<script src="js/changeLogos.js"></script>
+
+	<title>ROCKY - WEB</title>
+	<meta property="og:title" content="ROCKY - Full Digital Performance">
+	<link rel="icon" href="img/logo.svg">
+	<meta name="description" content="A ROCKY é uma empresa do Grupo Raccoon, 
+		formado também por outras duas agências consolidadas, tendo performance em 
+		seu DNA. Nossa missão é solucionar a dor ou desafio dos nossos clientes no 
+		on-line.">
+	<meta property="og:description" content="A ROCKY é uma empresa do Grupo Raccoon, 
+		formado também por outras duas agências consolidadas, tendo performance em 
+		seu DNA. Nossa missão é solucionar a dor ou desafio dos nossos clientes no 
+		on-line.">
+
+</head>
+
+<body onresize="changeImages()">
+
+	<!-- Capa site (Main section )-->
+	<section class="main-section">
+
+		<!-- Cabeçalho pagina (header-page)-->
+		<header class="header-page" role="banner">
+
+			<!-- container-header -->
+			<div class="container-fluid container-header">
+
+				<!-- NavBar box-->
+				<nav role="navigation" class="navbar navbar-expand-lg navbar-light navBox-header">
+
+					<!-- Menu hamburguer icon (only small and medium screens)-->
+					<div id="togglerButton" class="toggle-btn" onclick="show()">
+						<span id="spanBar1"></span>
+						<span id="spanBar2"></span>
+						<span id="spanBar3"></span>
+					</div>
+					<!-- /Menu hamburguer icon -->
+
+					<!-- Side bar menu (only small and medium screens)-->
+					<div id="sidebar" class="sidebar">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link" tabindex="0" rel="canonical" href="index.html">
+									Home
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" tabindex="1" href="#sobre">
+									Sobre a Rocky
+								</a>
+							</li>
+							<li class="nav-item">
+								<div class="dropdown">
+									<button id="diferenciais-dropdown" class="btn dropdown-toggle"
+										data-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">Serviços</button>
+									<div class="dropdown-menu" aria-labelledby="diferenciais-dropdown">
+										<a class="nav-link dropdown-item" tabindex="3" href="#servico-1">
+											Serviços
+										</a>
+										<a class="nav-link dropdown-item" tabindex="3" href="#servico-2">
+											Mídia Digital
+										</a>
+										<a class="nav-link dropdown-item" tabindex="3" href="#servico-3">
+											Implementações Tecnológicas
+										</a>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item">
+								<div class="dropdown">
+									<button id="diferenciais-dropdown" class="btn dropdown-toggle"
+										data-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">Diferenciais</button>
+									<div class="dropdown-menu" aria-labelledby="diferenciais-dropdown">
+										<a class="nav-link dropdown-item" tabindex="3" href="#diferencial-1">
+											Lorem ipsum
+										</a>
+										<a class="nav-link dropdown-item" tabindex="3" href="#diferencial-2">
+											Lorem ipsum
+										</a>
+										<a class="nav-link dropdown-item" tabindex="3" href="#diferencial-3">
+											Lorem ipsum
+										</a>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" tabindex="4" href="https://rocky.gupy.io/">
+									Trabalhe Conosco
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" tabindex="5" href="#contato">
+									Contato
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" tabindex="6" rel="canonical" href="blog.html">
+									Blog
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- Side bar menu -->
+
+					<!-- navBrand-Space -->
+					<div class="col-lg navBrand-Space">
+						<!-- Logo -->
+						<a class="navbar-brand" href="index.html">
+							<img class="img-fluid header-logo" src="" id="headerLogo" alt="Logo da Rocky">
+						</a>
+						<!-- /Logo -->
+					</div>
+					<!-- /navBrand-Space -->
+
+					<!-- navBar-space -->
+					<div class="col-lg navBar-space">
+						<!-- NavBar -->
+						<div id="my-nav" class="navbar-header collapse navbar-collapse">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item">
+									<a class="nav-link" tabindex="0" href="#sobre">
+										Sobre a Rocky
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" tabindex="1" href="#servicos">
+										Serviços
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" tabindex="2" href="#diferenciais">
+										Diferenciais
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" tabindex="3" href="https://rocky.gupy.io/">
+										Trabalhe Conosco
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" tabindex="4" href="#contato">
+										Contato
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" tabindex="5" href="blog.html">
+										Blog
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- /NavBar -->
+					</div>
+					<!-- /navBar-space -->
+
+
+				</nav>
+				<!-- /NavBar box-->
+
+			</div>
+			<!-- /container-header -->
+
+		</header>
+		<!-- /Cabeçalho pagina (header-page)-->
+
+		<main id="main" class="slogan" role="main">
+
+			<section class="d-flex section-slogan">
+
+				<div class="container-fluid container-slogan">
+
+					<div class="row row-slogan">
+
+						<div class="col-md-12 div-slogan">
+
+							<h1>Full Digital<br>Performance</h1>
+							<p class="m-auto">Lorem Ipsum dolor sit amet, consetetur
+								<span>sadipscing elitr, sed diam nonumy eirmod </span>
+								tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voloptua. At vero
+							</p>
+							<button onclick="location.href='index.html';" type="button" class="btn btn-lg btn-custom">
+								Entre em contato agora
+							</button>
+						</div>
+						<!-- /div-slogan -->
+					</div>
+					<!-- /row-slogan -->
+				</div>
+				<!-- /container-slogan -->
+			</section>
+			<!-- /section-slogan -->
+		</main>
+		<!-- /slogan -->
+	</section>
+	<!-- Capa site (Main section )-->
+
+	<!-- sections devem ter cabeçalho -->
+	<section id="sobre" class="d-flex p-md-5 section-sobre">
+		<div class="container container-sobre">
+			<div class="row row-sobre">
+
+				<div class="col-md-12 div-sobre">
+
+					<h2>Sobre</h2>
+
+					<article>
+						<p class="m-auto">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et
+							dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+							et ea rebum. Stet
+							clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+							dolor sit amet,
+							consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+							magna aliquyam erat,
+							sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+						</p>
+						<br>
+						<p class="m-auto">
+							<strong>
+								Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+								invidunt ut labore et
+								dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+								dolores et ea rebum. Stet
+								clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+								ipsum dolor sit amet,
+								consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+								magna aliquyam erat,
+								sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+							</strong>
+						</p>
+						<br>
+						<p class="m-auto">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et
+							dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+							et ea rebum. Stet
+							clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+							dolor sit amet,
+							consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+							magna aliquyam erat,
+							sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+						</p>
+					</article>
+
+				</div>
+				<!-- /section-div col md 12-->
+			</div>
+			<!-- /section-row -->
+		</div>
+		<!-- /section-container -->
+	</section>
+	<!-- /section-sobre -->
+
+	<!-- sections devem ter cabeçalho -->
+	<section id="servicos" class="d-flex p-md-5 section-servicos">
+		<div class="container container-servicos">
+			<h2>Serviços</h2>
+			<div class="row row-servicos justify-content-around">
+
+				<div id="servico-1" class="col-lg-4 area servicos-area-1">
+					<article>
+						<h3>Serviços</h3>
+						<p class="mt-3">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et
+							dolore magna aliquyam erat, sed diam
+						</p>
+
+						<p class="mt-3">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et
+							dolore magna aliquyam erat, sed diam
+						</p>
+					</article>
+				</div>
+				<!-- /servicos-area-1 -->
+
+				<div id="servico-2" class="col-lg-4 area servicos-area-2">
+					<article>
+						<h3>Mídia Digital de Performance</h3>
+						<p class="mt-3">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et
+							dolore magna aliquyam erat, sed diam
+						</p>
+
+						<p class="mt-3">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et
+							dolore magna aliquyam erat, sed diam
+						</p>
+					</article>
+				</div>
+				<!-- /servicos-area-2 -->
+
+				<div id="servico-3" class="col-lg-4 area servicos-area-3">
+					<article>
+						<h3>Implementações tecnológicas</h3>
+						<p class="mt-3">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et
+							dolore magna aliquyam erat, sed diam
+						</p>
+
+						<p class="mt-3">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et
+							dolore magna aliquyam erat, sed diam
+						</p>
+					</article>
+				</div>
+				<!-- /servicos-area-3 -->
+			</div>
+			<!-- /section-row -->
+		</div>
+		<!-- /section-container -->
+	</section>
+	<!-- /section-servicos -->
+
+	<!-- sections devem ter cabeçalho -->
+	<section id="diferenciais" class="d-flex p-md-5 section-diferenciais">
+		<div class="container container-diferenciais">
+			<h2>Diferenciais</h2>
+			<div class="row row-diferenciais justify-content-around">
+
+				<div id="diferencial-1" class="col-lg-4 area diferenciais-area-1">
+					<article>
+						<i class="fas fa-medal"></i>
+						<p class="mt-3">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et
+							dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+						</p>
+					</article>
+				</div>
+				<!-- /diferenciais-area-1 -->
+
+				<div id="diferencial-2" class="col-lg-4 area diferenciais-area-2">
+					<article>
+						<i class="fas fa-medal"></i>
+						<p class="mt-3">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et
+							dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+						</p>
+					</article>
+				</div>
+				<!-- /diferenciais-area-2 -->
+
+				<div id="diferencial-3" class="col-lg-4 area diferenciais-area-3">
+					<article>
+						<i class="fas fa-medal"></i>
+						<p class="mt-3">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et
+							dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+						</p>
+					</article>
+				</div>
+				<!-- /diferenciais-area-3 -->
+			</div>
+			<!-- /section-row -->
+		</div>
+		<!-- /section-container -->
+	</section>
+	<!-- /section-diferenciais -->
+
+
+
+	<!-- footer -->
+	<footer role="contentinfo" id="contato" class="d-flex contato">
+
+		<!-- container-fluid -->
+		<div class="container-fluid">
+			<!-- corpo-footer -->
+			<div class="row justify-content-between corpo-footer">
+
+				<!-- infos -->
+				<div class="col-lg-5 infos">
+					<!-- Logos (ROCKY/Facebook/Linkedin) -->
+					<ul class="navbar logos">
+						<!-- Rocky Logo -->
+						<li class="nav-item logo">
+							<a rel="canonical" href="index.html" aria-label="Voltar para a página índice">
+								<img id="logo-footer" src="" class="img-fluid" alt="Logo da Rocky">
+							</a>
+						</li>
+						<!-- Fb/Linkedin logo -->
+						<li class="nav-item midias">
+							<a class="fb" href="https://www.facebook.com/RockyDigitalPerformance/"
+								aria-label="Acessar o facebook da Rocky" target="_blank">
+								<i class="fab fa-facebook" aria-hidden="true"></i>
+							</a>
+
+							<a class="lkd" href="https://www.linkedin.com/company/rocky-ag"
+								aria-label="Acessar o linkedin da Rocky" target="_blank">
+								<i class="fab fa-linkedin" aria-hidden="true"></i>
+							</a>
+						</li>
+					</ul>
+					<!-- /Logos (ROCKY/Facebook/Linkedin) -->
+
+					<!-- Informações de contato -->
+					<ul class="navbar contatos">
+						<!-- email -->
+						<li class="nav-item email">
+							<a class="nav-link" href="mailto:contato@rocky.ag?Subject=Contato"
+								aria-label="Enviar e-mail para Rocky" target="_blank">
+								<i class="fas fa-envelope" aria-hidden="true"></i>
+								<span>contato@rocky.ag</span>
+							</a>
+						</li>
+
+						<li class="nav-item divisor"></li>
+
+						<!-- telefone -->
+						<li class="nav-item telefone">
+							<a class="nav-link" href="#" aria-label="Telefone da Rocky">
+								<i class="fas fa-phone-alt" aria-hidden="true"></i>
+								<span>(15) 3321-1105</span>
+							</a>
+						</li>
+
+					</ul>
+					<!-- /contatos (Informações de contato) -->
+
+					<ul class="navbar endereco">
+						<!-- email -->
+						<li class="nav-item">
+							<a class="nav-link" href="https://goo.gl/maps/68f9jDns5JtDymku7"
+								aria-label="Endereço da Rocky" target="_blank">
+								<i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+								<span>
+									R. Romeu do Nascimento, 247 - Jardim Portal da Colina, Sorocaba - SP,
+									18047-410 , 2º andar
+								</span>
+							</a>
+						</li>
+					</ul>
+					<!-- /endereco -->
+
+					<article class="descricao-empresa">
+
+						<p class="paragrafo-1">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et
+							dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+							et ea rebum. Stet
+							clita kasd
+						</p>
+
+						<p class="paragrafo-2">
+							gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+							amet,
+							consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+							magna aliquyam erat,
+							sed diam voluptua. At vero eos et a
+						</p>
+
+						<p class="paragrafo-3">
+							ccusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+							est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+							diam nonumy eirmod tempor invidunt ut
+						</p>
+
+					</article>
+
+
+				</div>
+				<!-- /infos -->
+
+				<!-- contato-form -->
+				<div class="col-lg-5 p-4 contato-form" role="form">
+
+					<form action="">
+
+						<div class="form-group">
+							<!-- para leitores de tela -->
+							<label for="nomeCliente" class="sr-only">Nome</label>
+							<input id="nomeCliente" class="form-control infos-contato" type="text" name=""
+								placeholder="Nome">
+						</div>
+
+						<div class="form-group">
+							<!-- para leitores de tela -->
+							<label for="emailCliente" class="sr-only">Email</label>
+							<input id="emailCliente" class="form-control infos-contato" type="email" name=""
+								placeholder="Email">
+						</div>
+
+						<div class="form-group">
+							<!-- para leitores de tela -->
+							<label for="investimento" class="sr-only">Investimento mensal</label>
+							<input id="investimentoCliente" class="form-control infos-contato" type="text"
+								name="investimento" placeholder="Investimento mensal">
+						</div>
+
+						<div class="form-group">
+							<!-- para leitores de tela -->
+							<label for="mensagemCliente" class="sr-only">Mensagem</label>
+							<textarea id="mensagemCliente" class="form-control infos-contato" type="text" name=""
+								rows="6" placeholder="Mensagem"></textarea>
+						</div>
+
+						<button type="submit" class="btn btn-primary">ENVIAR MENSAGEM</button>
+
+					</form>
+
+				</div>
+				<!-- /contato-form -->
+
+			</div>
+			<!-- /corpo-footer -->
+
+		</div>
+		<!-- /container-fluid -->
+	</footer>
+	<!-- /footer -->
+
+	<!-- JavaScript (Opcional) -->
+	<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>
+	<script src="js/functions.js"></script>
+</body>
+
+</html>

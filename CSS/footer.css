@@ -1,0 +1,369 @@
+/* ------------- FOOTER CONTATO ----------------- */
+
+/* footer box */
+
+.contato {
+    background-color: #EFE60B;
+    padding-top: 5.5%;
+    padding-bottom: 5.5%;
+}
+
+/* row */
+
+.contato .corpo-footer {
+    background-color: #191919;
+    padding: 5%;
+}
+
+/* ---------- coluna de dados */
+
+.infos {
+    padding: 0;
+}
+
+.infos span {
+    color: #919496;
+}
+
+/* configs navbar */
+
+.contato .navbar {
+    padding: 0!important;
+    align-items: normal;
+}
+
+/* configs nav-link */
+
+.contato .nav-link {
+    font-family: -webkit-pictograph;
+    font-weight: lighter;
+    font-size: 1em;
+    padding: 0.2em;
+}
+
+/* cor dos icons na navbar do footer */
+
+.contato .nav-link i {
+    color: #EFE60B;
+    font-size: 1.1em;
+}
+
+/* configs nav-item */
+
+.contato .nav-item {
+    list-style: none;
+}
+
+/* ====== ul Logo e midias */
+
+/* logo */
+
+.logos .logo {
+    float: left!important;
+    width: 50%!important;
+}
+
+.logos .midias {
+    float: right!important;
+    width: 50%!important;
+}
+
+.logo img {
+    width: 72%;
+}
+
+.midias .fb {
+    margin-left: 4%;
+    margin-right: 2.5em;
+}
+
+/* fb e linkedin icon */
+
+.midias i {
+    font-size: 2.5em;
+    color: white;
+}
+
+/* ====== ul contatos */
+
+.divisor {
+    /* margin-inline: auto;
+    margin-right: 0px; */
+    margin-left: auto!important;
+    width: 1px;
+    margin: .5em 1em;
+    background: #818181;
+}
+
+.contatos {
+    color: #818181!important;
+    margin-top: 7%;
+    font-size: 1em;
+}
+
+/* navbar item email */
+
+.email span {
+    margin-left: 1em;
+}
+
+/* navbar item telefone */
+
+.telefone {
+    /* margin-right: 20px; */
+    margin-left: 1.52em;
+    margin-right: auto;
+}
+
+.telefone span {
+    margin-left: 1em;
+}
+
+/* ====== ul endereco */
+
+.endereco a {
+    display: inline-flex;
+}
+
+.endereco span {
+    margin-left: 1em;
+    font-size: 0.8em;
+    display: grid;
+}
+
+/* ====== ul descricao empresa */
+
+.descricao-empresa {
+    padding-right: 8%;
+    margin-top: 8%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.paragrafo-1 {
+    color: white;
+}
+
+.paragrafo-2 {
+    color: #EFE60B;
+}
+
+.paragrafo-3 {
+    color: #1ccee2;
+}
+
+/* ---------- coluna de formulario de contato */
+
+.contato-form {
+    background-color: #919496;
+}
+
+/* input */
+
+.infos-contato, .infos-contato::placeholder {
+    color: #D4D4D4;
+    font-size: larger;
+}
+
+.form-group input {
+    margin-bottom: 7%;
+    height: 3em!important;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.contato-form .btn {
+    background-color: #1CD4E9;
+    border: 0px;
+    width: -webkit-fill-available;
+    height: 3em!important;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 7%;
+}
+
+@media (max-width: 449.98px){
+    .midias .fb {
+        margin-right: 1.25em;
+    }
+}
+
+@media (max-width: 767.98px) {/* ------------- FOOTER CONTATO ----------------- */
+    /* footer box */
+    .contato .corpo-footer {
+        padding: 0%;
+    }
+    /* row */
+    /* ---------- coluna de dados */
+    .infos {
+        padding: 5%;
+    }
+    /* configs navbar */
+    /* configs nav-link */
+    /* cor dos icons na navbar do footer */
+    /* configs nav-item */
+    /* ====== ul Logo e midias */
+    /* logo */
+    .logo img {
+        width: 80%;
+    }
+    .fb {
+        margin-left: 30%!important;
+    }
+    .midias i {
+        font-size: 30px;
+    }
+    /* fb e linkedin icon */
+    /* ====== ul contatos */
+    .divisor {
+        margin: 0px!important;
+    }
+    .contatos {
+        font-size: smaller!important;
+    }
+    /* navbar item email */
+    .email span {
+        margin-left: 0.5em;
+        font-size: smaller;
+    }
+    /* navbar item telefone */
+    .telefone {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .telefone span {
+        margin-left: 0.5em;
+        font-size: smaller;
+    }
+    /* ====== ul endereco */
+    .endereco span {
+        font-size: 0.6em;
+    }
+    /* ====== ul descricao empresa */
+    .descricao-empresa {
+        padding: 8%;
+        padding-bottom: 0%;
+        text-align: center;
+        margin-top: -5%;
+        font-size: x-small;
+    }
+    /* ---------- coluna de formulario de contato */
+    /* input */
+    .infos-contato, .infos-contato::placeholder {
+        font-size: medium;
+    }
+    .form-group input {
+        height: 1.5em!important;
+    }
+    textarea.form-control {
+        height: 4em;
+    }
+}
+
+/* Surface Duo and Medium Tablets and Smartphones */
+
+@media (min-width: 450px) and (max-width: 575.98px) {
+/* ------------- FOOTER CONTATO ----------------- */
+    /* footer box */
+    /* row */
+    /* ---------- coluna de dados */
+    /* configs navbar */
+    /* configs nav-link */
+    /* cor dos icons na navbar do footer */
+    /* configs nav-item */
+    /* ====== ul Logo e midias */
+    /* logo */
+    /* fb e linkedin icon */
+    /* ====== ul contatos */
+    /* navbar item email */
+    /* navbar item telefone */
+    /* ====== ul endereco */
+    /* ====== ul descricao empresa */
+    /* ---------- coluna de formulario de contato */
+    /* input */
+    .form-group input {
+        height: 2em!important;
+    }
+    .form-group input {
+        margin-bottom: 3%;
+        height: 3em!important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {/* ------------- FOOTER CONTATO ----------------- */
+    /* footer box */
+    /* row */
+    /* ---------- coluna de dados */
+    /* configs navbar */
+    /* configs nav-link */
+    /* cor dos icons na navbar do footer */
+    /* configs nav-item */
+    /* ====== ul Logo e midias */
+    /* logo */
+    .logos .midias {
+        text-align: end;
+    }
+    /* fb e linkedin icon */
+    /* linkedin icon */
+    .lkd {
+        margin-right: 25%;
+    }
+    /* ====== ul contatos */
+    /* navbar item email */
+    /* navbar item telefone */
+    /* ====== ul endereco */
+    /* ====== ul descricao empresa */
+    /* ---------- coluna de formulario de contato */
+    /* input */
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* ------------- FOOTER CONTATO ----------------- */
+    /* footer box */
+    /* row */
+    /* ---------- coluna de dados */
+    /* configs navbar */
+    /* configs nav-link */
+    /* cor dos icons na navbar do footer */
+    /* configs nav-item */
+    /* ====== ul Logo e midias */
+    /* logo */
+    /* fb e linkedin icon */
+    /* ====== ul contatos */
+    /* navbar item email */
+    /* navbar item telefone */
+    /* ====== ul endereco */
+    /* ====== ul descricao empresa */
+    /* ---------- coluna de formulario de contato */
+    /* input */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1400px) {
+    /* ------------- FOOTER CONTATO ----------------- */
+    /* footer box */
+    /* row */
+    /* ---------- coluna de dados */
+    /* configs navbar */
+    /* configs nav-link */
+    /* cor dos icons na navbar do footer */
+    /* configs nav-item */
+    /* ====== ul Logo e midias */
+    /* logo */
+    /* fb e linkedin icon */
+    /* ====== ul contatos */
+    /* navbar item email */
+    /* navbar item telefone */
+    /* ====== ul endereco */
+    /* ====== ul descricao empresa */
+    /* ---------- coluna de formulario de contato */
+    /* input */
+}

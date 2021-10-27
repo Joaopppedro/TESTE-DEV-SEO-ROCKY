@@ -1,0 +1,530 @@
+/* Estrutrura site */
+
+/* 
+    Body
+    |_ main-section (Capa site)
+    |    |_  header-page (Cabeçalho pagina)
+    |    |    |_ container-header
+    |    |        |_ navBox-header
+    |    |            |_ toggle-btn (Menu hamburguer icon)
+    |    |            |    |_spanBar
+    |    |            |_ sidebar (only small and medium screens)
+    |    |            |    |_ ul
+    |    |            |        |_li
+    |    |            |            |_ a
+    |    |            |_ navBrand-Space (col-lg)
+    |    |            |    |_ a
+    |    |            |        |_ img (header-logo)  
+    |    |            |_ navBar-space  (col-lg)
+    |    |                |_ navbar-header
+    |    |                    |_ ul
+    |    |                        |_ li
+    |    |                            |_ a
+    |    |__ slogan (main)
+    |        |_ section-slogan
+    |            |_ container-slogan
+    |                |_ row-slogan
+    |                    |_ div-slogan            
+    |
+    |_ section-sobre
+    |    |_container-sobre
+    |       |_row-sobre
+    |           |_ div-sobre
+    |
+    |_ section-servicos
+    |   |_ container-sobre
+    |       |_ row-sobre
+    |           |_ servicos-area-1 
+    |           |_ servicos-area-2
+    |           |_ servicos-area-3
+    |
+    |_ section-diferenciais
+    |   |_ container-sobre
+    |       |_ row-sobre
+    |           |_ diferenciais-area-1 
+    |           |_ diferenciais-area-2
+    |           |_ diferenciais-area-3
+    |
+
+
+/* ====================== Main Section ====================== */
+
+/* ###################### Header Page */
+
+/* -------------- container-header */
+
+/* -------------- navBox-header */
+
+/* -------------- toggle-btn */
+
+/* -------------- sidebar */
+
+/* -------------- navBrand-Space */
+
+/* -------------- navBar-space 
+
+/* ###################### slogan 
+
+/* -------------- container-header
+/* -------------- section-slogan
+/* -------------- container-slogan
+/* -------------- row-slogan
+/* -------------- div-slogan */
+
+/* ====================== Main Section ====================== */
+.main-section {
+    background-repeat: no-repeat!important;
+    background-position: inherit!important;
+    height: 100%;
+}
+/* ###################### Header Page */
+/* -------------- container-header */
+/* -------------- navBox-header */
+.navBox-header {
+    padding: 0;
+}
+/* -------------- toggle-btn */
+/* -------------- sidebar */
+.sidebar {
+    text-transform: uppercase;
+}
+.sidebar ul li {
+    min-width: max-content;
+    font-family: 'Montserrat', sans-serif;
+}
+.sidebar ul li:nth-child(7) {
+    border: none!important;
+}
+/* -------------- navBrand-Space */
+.navBrand-Space a {
+    min-width: -webkit-fill-available;
+}
+/* -------------- navBar-space */
+.navBar-space {
+    max-width: 60%;
+    margin-top: 0.5em;
+}
+
+.navbar-header ul li:nth-child(7) {
+    margin-right: 4em;
+}
+.navbar-header ul li a {
+    padding: 0!important;
+    /* font */
+    color: white!important;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    /* box */
+    width: max-content;
+}
+/* ###################### slogan 
+/* -------------- container-header
+/* -------------- section-slogan
+/* -------------- container-slogan
+/* -------------- row-slogan
+/* -------------- div-slogan*/
+.div-slogan {
+    text-align: center;
+}
+.div-slogan h1 {
+    text-transform: uppercase;
+}
+.div-slogan p {
+    font-family: system-ui;
+    color: white;
+}
+.div-slogan p span {
+    color: #EFE60B;
+}
+.btn-custom {
+    color: white;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    font-weight: bold;
+    background-color: aqua;
+}
+
+
+/* since extra small at tablets */
+
+@media screen and (max-width: 991.98px) {
+    body {
+        background: none;
+    }
+    /* ====================== Main Section ====================== */
+    .main-section {
+        background: url(../img/mobile/s1\ mobile.png);
+        background-size: cover;
+        background-position: center!important;
+        height: 150%;
+    }
+    /* ###################### Header Page */
+    /* -------------- container-header */
+    /* -------------- navBox-header */
+    /* caso queira fixed em sm and md devices */
+    /* .navBox-header {
+        position: fixed;
+        width: inherit;
+    } */
+    /* -------------- toggle-btn */
+    .toggle-btn {
+        font-size: larger;
+    }
+    /* -------------- sidebar */
+    /* -------------- navBrand-Space */
+    .navBrand-Space {
+        /* caso queira menu fixed em sm and md devices tirar text align */
+        text-align: center;
+        margin-top: 1em;
+    }
+    /* -------------- navBar-space */
+    .navbar-header {
+        visibility: hidden;
+    }
+    /* ###################### slogan 
+    /* -------------- container-header
+    /* -------------- section-slogan
+    /* -------------- container-slogan
+    /* -------------- row-slogan
+    /* -------------- div-slogan*/
+}
+
+/* Dispositivos large (desktops com 992px ou mais) */
+
+@media (min-width: 992px) {
+    body {
+        background: url(../img/web/bg.png) no-repeat;
+        background-size: cover;
+    }
+    /* ====================== Main Section ====================== */
+    .main-section {
+        background: url(../img/web/s1\ ft1.png);
+        background-size: cover;
+    }
+    /* ###################### Header Page */
+    /* -------------- container-header */
+    /* -------------- navBox-header */
+    .toggle-btn {
+        visibility: hidden;
+    }
+    /* -------------- toggle-btn */
+    /* -------------- sidebar */
+    /* -------------- navBrand-Space */
+    .header-logo {
+        width: 80%;
+        max-width: max-content;
+    }
+    .navBrand-Space {
+        max-width: 20%;
+    }
+    /* -------------- navBar-space */
+    .navBar-space {
+        max-width: 60%;
+    }
+    /* ###################### slogan 
+    /* -------------- container-header
+    /* -------------- section-slogan
+    /* -------------- container-slogan
+    /* -------------- row-slogan
+    /* -------------- div-slogan*/
+    .div-slogan {
+        margin-top: 8.5%;
+    }
+    .div-slogan h1 {
+        margin-left: .7em;
+        letter-spacing: 0.01em;
+        font-size: 6.2em;
+        line-height: 1.4em;
+    }
+    .div-slogan p {
+        margin-top: 4em!important;
+        font-weight: 500;
+        max-width: 45%;
+    }
+    .btn-custom {
+        font-family: 'Montserrat', sans-serif;
+        width: 25%!important;
+        border-radius: 6em;
+        -webkit-border-radius: 6em;
+        -moz-border-radius: 6em;
+        font-size: 0.95em;
+        margin-top: 7.5%;
+        margin-bottom: 2%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+
+@media (max-width: 575.98px) {
+    /* ====================== Main Section ====================== */
+    /* ###################### Header Page */
+    /* -------------- container-header */
+    /* -------------- navBox-header */
+    /* -------------- toggle-btn */
+    /* -------------- sidebar */
+    .sidebar ul li {
+        font-size: .8em!important;
+        font-weight: 500;
+    }
+    .sidebar ul li:nth-child(1) {
+        margin-top: 20%!important;
+    }
+    /* -------------- navBrand-Space */
+    /* caso queira menu fixed em sm e md devices */
+    /* .navBrand-Space {
+        left: 33%;
+    } */
+    /* -------------- navBar-space */
+    /* ###################### slogan 
+    /* -------------- container-header
+    /* -------------- section-slogan
+    /* -------------- container-slogan
+    /* -------------- row-slogan
+    /* -------------- div-slogan*/
+    .div-slogan h1 {
+        font-size: 2em;
+        margin-top: 4em;
+    }
+    .div-slogan p {
+        font-size: .6em;
+        font-weight: 600;
+        max-width: 90%;
+        margin-top: 7em!important;
+    }
+    .btn-custom {
+        font-size: .5em;
+        border-radius: 2em;
+        border-radius: 2em;
+        padding: 1em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        margin-top: 20em;
+        margin-bottom: 20em;
+    }
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* ====================== Main Section ====================== */
+    /* ###################### Header Page */
+    /* -------------- container-header */
+    /* -------------- navBox-header */
+    /* -------------- toggle-btn */
+    /* -------------- sidebar */
+    .sidebar {
+        width: 60%!important;
+    }
+    .sidebar ul {
+        padding-left: 4em;
+        padding-right: 2em;
+    }
+    .sidebar ul li {
+        font-size: .8em!important;
+        font-weight: 500;
+    }
+    .sidebar ul li:nth-child(1) {
+        margin-top: 10%!important;
+    }
+    /* -------------- navBrand-Space */
+    /* -------------- navBar-space */
+    /* ###################### slogan 
+    /* -------------- container-header
+    /* -------------- section-slogan
+    /* -------------- container-slogan
+    /* -------------- row-slogan
+    /* -------------- div-slogan*/
+    .div-slogan h1 {
+        font-size: 3.5em;
+        margin-top: 4em;
+    }
+    .div-slogan p {
+        font-size: .75em;
+        font-weight: 600;
+        max-width: 90%;
+        margin-top: 7em!important;
+    }
+    .btn-custom {
+        font-size: .75em;
+        border-radius: 2em;
+        border-radius: 2em;
+        padding: 1em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        margin-top: 20em;
+        margin-bottom: 20em;
+    }
+}
+
+/* Dispositivos médios (tablets com 768px ou mais) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* ====================== Main Section ====================== */
+    /* ###################### Header Page */
+    /* -------------- container-header */
+    /* -------------- navBox-header */
+    /* -------------- toggle-btn */
+    /* -------------- sidebar */
+    .sidebar {
+        width: 50%!important;
+    }
+    .sidebar ul {
+        padding-left: 6em;
+        padding-right: 2em;
+    }
+    .sidebar ul li {
+        font-size: .8em!important;
+        font-weight: 500;
+    }
+    .sidebar ul li:nth-child(1) {
+        margin-top: 10%!important;
+    }
+    /* -------------- navBrand-Space */
+    /* -------------- navBar-space */
+    .navbar-header ul li a {
+        font-size: 0.9em;
+        font-weight: 500;
+        /* box */
+        margin-right: 1.5em;
+    }
+    /* ###################### slogan 
+    /* -------------- container-header
+    /* -------------- section-slogan
+    /* -------------- container-slogan
+    /* -------------- row-slogan
+    /* -------------- div-slogan*/
+    .div-slogan h1 {
+        font-size: 5em;
+        margin-top: 3em;
+    }
+    .div-slogan p {
+        font-size: .9em;
+        font-weight: 600;
+        max-width: 90%;
+        margin-top: 7em!important;
+    }
+    .btn-custom {
+        font-size: .75em;
+        border-radius: 2em;
+        border-radius: 2em;
+        padding: 1em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        margin-top: 20em;
+        margin-bottom: 10em;
+    }
+    
+}
+
+/* Dispositivos large (desktops com 992px ou mais) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    @media (min-height: 700px) {
+        body {
+            background-size: 115%;
+        }
+    }
+    @media (max-height: 700px) {
+        body {
+            background-size: 115%;
+        }
+    }
+    /* ====================== Main Section ====================== */
+    /* ###################### Header Page */
+    /* -------------- container-header */
+    /* -------------- navBox-header */
+    /* -------------- toggle-btn */
+    /* -------------- sidebar */
+    /* -------------- navBrand-Space */
+    .header-logo {
+        /* padding-top: 0.4em; */
+        /* margin-left: 2.6em; */
+        width: 80%;
+        max-width: max-content;
+    }
+    .navBrand-Space {
+        margin-top: 0.6em;
+        margin-left: 1.6em;
+    }
+    /* -------------- navBar-space */
+    .navbar-header ul li a {
+        font-size: 0.9em;
+        font-weight: 500;
+        /* box */
+        margin-right: 1.5em;
+    }
+    .navbar-header ul li:nth-child(7) {
+        margin-right: 4em;
+    }
+    /* ###################### slogan 
+    /* -------------- container-header
+    /* -------------- section-slogan
+    /* -------------- container-slogan
+    /* -------------- row-slogan
+    /* -------------- div-slogan*/
+    .btn-custom {
+        width: 30%!important;
+    }
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+
+@media (min-width: 1200px) {
+/* ====================== Main Section ====================== */
+    /* ###################### Header Page */
+    /* -------------- container-header */
+    /* -------------- navBox-header */
+    /* -------------- toggle-btn */
+    /* -------------- sidebar */
+    /* -------------- navBrand-Space */
+    .navBrand-Space {
+        max-width: 20%;
+        margin-top: 1em;
+        margin-left: 4em;
+        /* min-width: -webkit-fill-available; */
+    }
+    .navBrand-Space a {
+        min-width: -webkit-fill-available;
+    }
+    .header-logo {
+        width: 78%;
+        max-width: max-content;
+    }
+    /* -------------- navBar-space */
+    .navBar-space {
+        position: absolute;
+        right: 5.5%;
+    }
+    .navbar-header ul li a {
+        font-size: 1em;
+        font-weight: 500;
+        /* box */
+        margin-right: 1.5em;
+    }
+    /* ###################### slogan 
+    /* -------------- container-header
+    /* -------------- section-slogan
+    /* -------------- container-slogan
+    /* -------------- row-slogan
+    /* -------------- div-slogan*/
+    .div-slogan {
+        margin-top: 8.5%;
+    }
+    .div-slogan h1 {
+        margin-left: .7em;
+        letter-spacing: 0.01em;
+        font-size: 6.2em;
+        line-height: 1.4em;
+    }
+    .div-slogan p {
+        margin-top: 4em!important;
+        font-weight: 500;
+        max-width: 45%;
+    }
+    .btn-custom {
+        width: fit-content!important;
+        padding-right: 1em!important;
+    }
+}
